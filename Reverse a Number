@@ -1,0 +1,7 @@
+a=int(input())
+count=0
+while a>0:
+  total=a%10
+  count=(count*10)+total
+  a=a//10
+print(count)
