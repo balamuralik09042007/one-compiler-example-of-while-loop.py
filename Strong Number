@@ -1,0 +1,12 @@
+import math
+a=int(input())
+count=0
+temp=a
+while a>0:
+  total=a%10
+  count=math.factorial(total)+count
+  a=a//10
+if temp==count:
+  print("Strong")
+else:
+  print("Not Strong")
